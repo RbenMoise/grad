@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-style: "poppins";
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px;
+    background: #0d2147;
+    color: #819dd1;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li a {
+    margin-right: 35px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    color: #819dd1;
+
+}
+
+.menu ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    display: flex;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.body {
+    background-image: url(imgs/IMG_6520-1-scaled.jpg);
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(0.9px);
+
+}

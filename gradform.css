@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-style: "poppins";
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.details {
+    display: block;
+}
+
+.id {
+    display: flex;
+
+}
+
+.id input:nth-child(2) {
+    margin-left: 20px;
+}
+
+.details input {
+    display: block;
+    margin: 20px 0 20px 0;
+}
+
+/*the form */
+.container {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tables {
+    background-color: blue;
+    /*width: 100%;*/
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.table1 {
+
+    margin: 40px;
+    border: 9px;
+    background-color: pink;
+    padding: 20px;
+}
+
+table,
+th,
+td {
+    width: 800px;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+/* CSS to hide the user details initially */
+.hidden {
+    display: none;
+}
